@@ -20,7 +20,7 @@ function ContactCard() {
 			'</div>'
 		].join(''),
 		controller: function ($scope) {
-				$scope.name = $scope.name.toLowerCase()
+				$scope.username = $scope.username.toLowerCase();
 		},
 		controllerAs: 'ctrl',
 		restrict: 'E'
